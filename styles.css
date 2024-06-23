@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading Styles */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* List Styles */
+  ul {
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 15px;
+  }
+  
+  /* Link Styles */
+  a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease-out; /* Added transform for animation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+  }
+  
+  a:hover {
+    background-color: #45a049;
+    transform: translateY(-3px); /* Move button slightly up on hover */
+  }
+  
+  a:active {
+    transform: translateY(1px); /* Push button down briefly when clicked */
+  }
+  /* Basic styling for the video player */
+.video-player {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+video {
+    width: 100%;
+    display: block;
+}
+
+/* You can add more styles for controls, play button, etc. */
